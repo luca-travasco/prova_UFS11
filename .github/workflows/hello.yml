@@ -16,5 +16,5 @@ jobs:
       - run: ls
       - run: pwd
         working-directory: template-progetto
-      - run: npm install
+      - run: mvn install
         working-directory: template-progetto

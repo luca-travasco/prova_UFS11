@@ -12,4 +12,7 @@ jobs:
       - run: touch hello.txt
       - run: ls -a
       - run: java --version
-      
+      - run: cd template-progetto
+      - run: ls
+      - run: pwd
+      - run: npm install

@@ -9,3 +9,4 @@ jobs:
      - run: sudo apt update
      - run: pwd
      - run: touch hello.txt
+     - run: ls -a

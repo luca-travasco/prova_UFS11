@@ -1,4 +1,11 @@
 name: Il mio primo GitHub Action
 on:
   push:
-  
+jobs:
+  italian-job:
+    runs-on: ubuntu-latest
+    steps:
+     - run: ls
+     - run: sudo apt update
+     - run: pwd
+     - run: touch hello.txt

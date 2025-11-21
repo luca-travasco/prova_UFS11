@@ -20,4 +20,4 @@ jobs:
         working-directory: template-progetto
       - run: mvn test
         working-directory: template-progetto
-      - run: actions/checkout@v4
+        

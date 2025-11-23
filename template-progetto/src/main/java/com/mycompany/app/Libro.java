@@ -1,3 +1,5 @@
+package com.mycompany.app;
+
 import java.time.LocalDate;
 
 public class Libro {
